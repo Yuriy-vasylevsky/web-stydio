@@ -35,6 +35,10 @@ html {
 .link {
 	text-decoration: none;
 }
+.title {
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
 .logo {
 	color: var(--main-title-color);
@@ -51,6 +55,16 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 }
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
 
 /* button */
 
@@ -59,11 +73,22 @@ html {
 	background: var(--white-color);
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 1.87;
+	line-height: 1.88;
 	display: flex;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
+}
+.section-hero .button {
+	padding: 10px 32px;
+	color: var(--white-color);
+	background: var(--main-accente-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	border: 0;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .button-portfolio {
@@ -77,46 +102,43 @@ html {
 	background: var(--main-accente-color);
 	color: var(--white-color);
 }
-.button:hover,
-.button:focus {
-	background: var(--main-accente-color);
-	color: var(--white-color);
+.section-hero .button:hover,
+.section-hero .button:focus {
+	background: var(--white-color);
+	color: var(--main-title-color);
 }
-
 
 /* header */
 
 .header {
-	padding-top: 25px;
+	padding-top: 24px;
 	padding-bottom: 25px;
+	/* align-items: center; */
 }
-
 .header .container {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 }
-
 .header .logo {
 	margin-right: 90px;
+	align-items: center;
 }
-
 .navigation {
 	display: flex;
 	align-items: center;
 	margin-right: auto;
 }
-
 .site-nav .item:not(:last-child),
 .contact-nav .item:not(:last-child) {
 	margin-right: 50px;
+	
 }
-
 .site-nav,
 .contact-nav {
 	display: flex;
+	align-items: center;
 }
-
 .logo-blue {
 	color: var(--main-accente-color)
 }
@@ -145,7 +167,14 @@ html {
 
 /* hero */
 
+.content-hero {
+	max-width: 696px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .section-hero {
+	padding-top: 200px;
+	padding-bottom: 200px;
 	background: var(--accente-bg-color);
 }
 .hero-title {
