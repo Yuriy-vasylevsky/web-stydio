@@ -16,116 +16,154 @@
 <body>
 	<!-- шапка -->
 	<header class="header">
-		<nav class="header-nav">
-			<div class="nav-logo">
-				<a href="index.html" class="logo list"> <span class="logo-blue">Web</span>Studio</a>
-			</div>
-			<ul class="site-nav list">
-				<li>
-					<a href="index.html" class="link "> Студия </a>
-				</li>
-				<li>
-					<a href="portfolio.html" class="link currant"> Портфолио </a>
-				</li>
-				<li>
-					<a href="/" class="link"> Контакты </a>
-				</li>
-			</ul>
+		<div class="container">
+			<nav class="navigation">
+				<a href="index.html" class="logo link"> <span class="logo-blue">Web</span>Studio</a>
+				<ul class="site-nav list">
+					<li class="item">
+						<a href="/" class="link"> Студия </a>
+					</li>
+					<li class="item">
+						<a href="portfolio.html" class="link"> Портфолио </a>
+					</li>
+					<li class="item">
+						<a href="/" class="link"> Контакты </a>
+					</li>
+				</ul>
+			</nav>
 			<ul class="contact-nav list">
-				<li>
+				<li class="item">
 					<a href="mailto:info@devstudio.com" class="link"> info@devstudio.com </a>
 				</li>
-				<li>
+				<li class="item">
 					<a href="tel:+380961111111" class="link"> +38 096 111 11 11 </a>
 				</li>
 			</ul>
-		</nav>
+		</div>
 	</header>
 	<!-- основна частина -->
 	<Main>
-		<section>
-			<ul class=" list">
-				<li>
-					<button type="button" class="button-portfolio"> Все </button>
-				</li>
-				<li>
-					<button type="button" class="button-portfolio"> Веб-сайты </button>
-				</li>
-				<li>
-					<button type="button" class="button-portfolio"> Приложения </button>
-				</li>
-				<li>
-					<button type="button" class="button-portfolio"> Дизайн </button>
-				</li>
-				<li>
-					<button type="button" class="button-portfolio"> Маркетинг </button>
-				</li>
-			</ul>
+		<section class="filter">
+			<div class="container">
+				<ul class="filter-list list">
+					<li class="item">
+						<button type="button" class="button-portfolio"> Все </button>
+					</li>
+					<li class="item">
+						<button type="button" class="button-portfolio"> Веб-сайты </button>
+					</li>
+					<li class="item">
+						<button type="button" class="button-portfolio"> Приложения </button>
+					</li>
+					<li class="item">
+						<button type="button" class="button-portfolio"> Дизайн </button>
+					</li>
+					<li class="item">
+						<button type="button" class="button-portfolio"> Маркетинг </button>
+					</li>
+				</ul>
+			</div>
 		</section>
-		<section class="portfolip-section">
-			<ul class="portfolip-section-list list">
-				<li>
-					<img src="img/img (7).jpg" alt=" ">
-					<h3 class="title"> Технокряк </h3>
-					<p class="text">Веб-сайт</p>
+		<section class="portfolip-section container section">
+			<ul class="portfolip-section-list list grid">
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(7).jpg" alt=" " >
+						<div class="portfolip-expo">
+							<h3 class="title"> Технокряк </h3>
+							<p class="text">Веб-сайт</p>
+						</div>
+					</a>
 				</li>
-				<li>
-					<img src="img/img (8).jpg" alt=" ">
-					<h3 class="title">Постер New Orlean vs Golden Star</h3>
-					<p class="text">Дизайн</p>
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(8).jpg" alt=" ">
+						<div class="portfolip-expo">
+							<h3 class="title">Постер New Orlean vs Golden Star</h3>
+							<p class="text">Дизайн</p>
+						</div>
+					</a>
 				</li>
-				<li>
-					<img src="img/img (9).jpg" alt=" ">
-					<h3 class="title">Ресторан Seafood</h3>
-					<p class="text">Приложение</p>
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(9).jpg" alt=" ">
+						<div class="portfolip-expo">
+							<h3 class="title">Ресторан Seafood</h3>
+							<p class="text">Приложение</p>
+						</div>
+					</a>
 				</li>
-				<li>
-					<img src="img/img (10).jpg" alt=" ">
-					<h3 class="title">Проект Prime</h3>
-					<p class="text">Маркетинг</p>
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(10).jpg" alt=" ">
+						<div class="portfolip-expo">
+							<h3 class="title">Проект Prime</h3>
+							<p class="text">Маркетинг</p>
 				</li>
-				<li>
-					<img src="img/img (11).jpg" alt=" ">
-					<h3 class="title">Проект Boxes</h3>
-					<p class="text">Маркетинг</p>
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(11).jpg" alt=" ">
+						<div class="portfolip-expo">
+							<h3 class="title">Проект Boxes</h3>
+							<p class="text">Маркетинг</p>
+						</div>
+					</a>
 				</li>
-				<li>
-					<img src="img/img (12).jpg" alt=" ">
-					<h3 class="title">Inspiration has no Borders</h3>
-					<p class="text">Веб-сайт</p>
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(12).jpg" alt=" ">
+						<div class="portfolip-expo">
+							<h3 class="title">Inspiration has no Borders</h3>
+							<p class="text">Веб-сайт</p>
+						</div>
+					</a>
 				</li>
-				<li>
-					<img src="img/img (13).jpg" alt=" ">
-					<h3 class="title">Издание Limited Edition</h3>
-					<p class="text">Дизайн</p>
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(13).jpg" alt=" ">
+						<div class="portfolip-expo">
+							<h3 class="title">Издание Limited Edition</h3>
+							<p class="text">Дизайн</p>
+						</div>
+					</a>
 				</li>
-				<li>
-					<img src="img/img (14).jpg" alt=" ">
-					<h3 class="title">Проект LAB</h3>
-					<p class="text">Маркетинг</p>
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(14).jpg" alt=" ">
+						<div class="portfolip-expo">
+							<h3 class="title">Проект LAB</h3>
+							<p class="text">Маркетинг</p>
+						</div>
+					</a>
 				</li>
-				<li>
-					<img src="img/img (15).jpg" alt=" ">
-					<h3 class="title">Growing Business</h3>
-					<p class="text">Приложение</p>
+				<li class="grid-item">
+					<a href="" class="link">
+						<img src="img/img(15).jpg" alt=" ">
+						<div class="portfolip-expo">
+							<h3 class="title">Growing Business</h3>
+							<p class="text">Приложение</p>
+						</div>
+					</a>
 				</li>
 			</ul>
 		</section>
 	</Main>
 	<!-- подвал -->
 	<footer class="footer">
-		<a href="/" class="footer-logo logo"> <span class="logo-blue"> Web</span>Studio </a>
-		<ul class="footer-list list">
-			<li>
-				<a href="https://g.page/goitua?share" class="link-adres">г. Киев, пр-т Леси Украинки, 26</a>
-			</li>
-			<li>
-				<a href="mailto:info@devstudio.com" class="link"> info@devstudio.com </a>
-			</li>
-			<li>
-				<a href="tel:+380961111111" class="link"> +38 096 111 11 11 </a>
-			</li>
-		</ul>
+		<div class="container">
+			<a href="/" class="logo link"> <span class="logo-blue">Web</span>Studio</a>
+			<ul class="footer-list list">
+				<li class="item">
+					<a href="https://g.page/goitua?share" class="link-adres">г. Киев, пр-т Леси Украинки, 26</a>
+				</li>
+				<li class="item">
+					<a href="mailto:info@devstudio.com" class="link"> info@devstudio.com </a>
+				</li>
+				<li class="item">
+					<a href="tel:+380961111111" class="link"> +38 096 111 11 11 </a>
+				</li>
+			</ul>
+		</div>
 	</footer>
 
 </body>
