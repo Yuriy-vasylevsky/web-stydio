@@ -1,0 +1,183 @@
+:root {
+	--main-text-color: #757575;
+	--main-title-color:  #212121;
+	--main-accente-color: #2196F3;
+	--white-color: #FFFFFF;
+	--maim-bg-color: #F5F4FA;
+	--accente-bg-color: #2F303A;
+}
+body {
+	color: var(--main-text-color);
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+	font-style: normal;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+/* header */
+
+.logo {
+	color: var(--main-title-color);
+	font-family: Raleway, sans-serif ;	
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+.footer-logo {
+	color: var(--white-color);
+}
+.logo-blue {
+	color: var(--main-accente-color)
+}
+.site-nav .link {	
+	color: var(--main-title-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--main-accente-color)
+}
+.contact-nav .link {
+	color: var(--main-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+	color: var(--main-accente-color)
+}
+
+/* main */
+
+/* hero */
+
+.section-hero {
+	background: var(--accente-bg-color);
+}
+.hero-title {
+	color: var(--white-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+/* button */
+
+.button {
+	color: var(--main-title-color);
+	background: var(--white-color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+.button-portfolio {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+	background: var(--main-accente-color);
+	color: var(--white-color);
+}
+.button:hover,
+.button:focus {
+	background: var(--main-accente-color);
+	color: var(--white-color);
+}
+
+/* section-advantages */
+
+.section-advantages-list .title {
+	color: var(--main-title-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+.section-advantages-list .text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+/* work */
+
+.section-titlle {
+	color: var(--main-title-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+
+/* teem */
+
+.section-teem-list .title {
+	color: var(--main-title-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+.section-teem-list .text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+}
+
+/* footer */
+
+.footer {
+	background: var(--accente-bg-color);
+}
+.footer-list .link-adres {
+	color: var(--white-color);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	}
+
+.footer-list .link {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+/* portfolio */
+
+.portfolip-section .title {
+	color: var(--main-title-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2.0;
+	letter-spacing: 0.06em;
+}
+.portfolip-section .text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.87;
+}
