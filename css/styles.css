@@ -692,6 +692,7 @@ background-color: var(--main-accente-color);
 .podpiska {
 	flex-basis: calc(50% - 15px);
 	display: flex;
+	flex-direction: column;
 }
 
 .footer .social-link {
@@ -780,7 +781,7 @@ background-color: var(--main-accente-color);
 	transform: translateY(100%);
 	transition: transform var(--transform-time) linear,
 	opacity var(--transform-time) linear;
-	background-color var(--transform-time) linear;
+	background-color: var(--transform-time) linear;
 }
 
 .shesdov-link:hover .portfolip-expo-position {
@@ -793,4 +794,60 @@ background-color: var(--main-accente-color);
 	font-size: 18px;
 	line-height: 1.56;
 	color: #FFFFFF;
+}
+
+.form {
+	display: inline-flex;
+
+}
+
+.input-mail::placeholder {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	display: flex;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.6);
+	
+
+}
+
+.input-mail {
+	display: flex;	
+	padding: 15px;
+	width: 358px;
+	background-color: var(--accente-bg-color);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	margin-right: 12px;
+}
+
+.footer .button {
+	position: relative;
+	overflow: hidden;
+	padding: 10px 32px;
+	color: var(--white-color);
+	background: var(--main-accente-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-icon{
+	width: 24px;
+	height: 24px;
+	fill:var(--white-color);
+	margin-left: 10px;
+	transition: fill var(--transform-time) linear;
+}
+
+.button:hover .btn-icon {
+	fill: var(--main-title-color);
+}
+
+.footer .button:hover {
+	color: var(--main-title-color);
+	background: var(--white-color);
 }

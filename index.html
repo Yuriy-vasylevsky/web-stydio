@@ -433,14 +433,31 @@
 
 				<div class="podpiska ">
 					<h2 class="footer-section-titlle">Подпышитесь на рассылуку</h2>
+					<form action="" class="form">
+						<!-- <label for="mail">E-mail</label> -->
+						<input type="email" class="input-mail" name="mail" id="mail" placeholder="E-mail">
+						<button type="button" class="button">
+							Подписаться
+							<svg class="btn-icon">
+								<use href="../img/sprite.svg#icon-send"></use>
+							</svg>
+						</button>
+					</form>
 				</div>
 			</div>
 		</div>
 	</footer>
-	<div class="backdrop" data-modal>
-		<div class="modal" >
+
+	<!-- form  -->
+	<div class="backdrop is-hidden" data-modal>
+		<div class="modal">
 			<button type="button" data-modal-close>x</button>
-			<p></p>
+
+			<form action="">
+
+
+
+			</form>
 		</div>
 	</div>
 	<script src="./js/modal.js"></script>
